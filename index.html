@@ -9,11 +9,12 @@
 </head>
 <body>
     <main>
+<section id="logos">
       <div class="container"><img src="images/newBadge.jpg" alt="vector"></div>
       <div class="container"><img src="images/newBadge.svg" alt="raster"></div>
+</section>
 
-
-
+<section id="svgs">
       <div><svg id="magnifyingIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 690">
         <defs>
           <style>
@@ -30,7 +31,7 @@
 
               #details { display: block; }
 
-              @media screen and (max-width: 150px) {
+              @media screen and (max-width: 400px) {
                 #details {
                   display: none;
                 }
@@ -50,6 +51,39 @@
         </g>
       </svg>
 </div>
+
+<svg id="fileStack" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 368">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #ccc;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>circle</title>
+  <circle id="bckgrd" class="cls-1" cx="184" cy="184" r="180"/>
+  <g id="ovals">
+    <path class="cls-1" d="M728.33,435.57c0,12.63-7.67,23.1-17.14,23.1H565.48c-9.47,0-17.15-10.47-17.15-23.1v-5.71c0-12.63,7.68-22.86,17.15-22.86H711.19c9.47,0,17.14,10.23,17.14,22.86Z" transform="translate(-456 -328)"/>
+    <path class="cls-1" d="M728.33,514.86c0,12.62-7.67,22.14-17.14,22.14H565.48c-9.47,0-17.15-9.52-17.15-22.14v-5.72c0-12.62,7.68-22.14,17.15-22.14H711.19c9.47,0,17.14,9.52,17.14,22.14Z" transform="translate(-456 -328)"/>
+    <path class="cls-1" d="M728.33,594.14c0,12.63-7.67,22.86-17.14,22.86H565.48c-9.47,0-17.15-10.23-17.15-22.86v-5.71c0-12.63,7.68-23.1,17.15-23.1H711.19c9.47,0,17.14,10.47,17.14,23.1Z" transform="translate(-456 -328)"/>
+  </g>
+  <g id="details">
+    <line class="cls-2" x1="157.33" y1="104" x2="247.33" y2="104"/>
+    <line class="cls-2" x1="157.33" y1="184" x2="247.33" y2="184"/>
+    <line class="cls-2" x1="157.33" y1="264" x2="247.33" y2="264"/>
+  </g>
+</svg>
+</section>
     </main>
 
   <script src="js/main.js"></script>
