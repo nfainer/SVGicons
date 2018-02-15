@@ -14,3 +14,13 @@ main
   display: block;
   width: 100%;
 }
+
+#svgs
+{
+  width: 300px;
+}
+
+#logos
+{
+  width: 300px;
+}
